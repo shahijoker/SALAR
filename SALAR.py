@@ -88,7 +88,7 @@ logo =                                          """
 \033[1;37m Owner   :  salar khanoo
 \033[1;37m Facebook:  prince salar
 \033[1;37m Github  :  shahijoker 
-\033[1;37m Version :  3.2
+\033[1;37m Version :  3.4
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
